@@ -294,7 +294,7 @@ namespace QbScript_Linter
                 || code == 0x24
                 || code >= 0x27 && code <= 0x29
                 || code >= 0x2C && code <= 0x34
-                || code == 0x37 && code <= 0x39
+                || code >= 0x37 && code <= 0x39
                 || code >= 0x3C && code <= 0x42
                 || code >= 0x47 && code <= 0x4D;
         }
